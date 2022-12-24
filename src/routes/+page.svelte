@@ -10,6 +10,7 @@
 </header>
 
 <body>
+    <!-- TODO: Switch this, iterate over drinks and asign letter, alphabetize data IMPORTANT!!! -->
     {#each alphabet as letter}
         {#each data.data as drink}
             {#if drink.name[0] === letter}
@@ -24,10 +25,10 @@
         background-color: #303134;
         display: flex;
         justify-content: space-between;
-        padding: 0.5rem;
+        padding: 0.7rem;
     }
     header img {
-        width: 2.5rem;
+        width: 2.2rem;
         filter: invert(97%) sepia(0%) saturate(7487%) hue-rotate(77deg) brightness(110%) contrast(100%);
     }
 </style>
