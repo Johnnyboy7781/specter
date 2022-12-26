@@ -1,5 +1,6 @@
 export const data = [
     {
+        id: 0,
         name: "Amaretto Sour",
         ingredients: [
             "1.5oz Amaretto",
@@ -13,6 +14,7 @@ export const data = [
         History: "Lorem ipsum"
     },
     {
+        id: 1,
         name: "Cosmopolitan",
         ingredients: [
             "1.5oz Vodka",
@@ -27,6 +29,7 @@ export const data = [
         History: "Lorem ipsum"
     },
     {
+        id: 2,
         name: "Last Word",
         ingredients: [
             "0.75oz Gin",
@@ -40,6 +43,7 @@ export const data = [
         History: "Lorem ipsum"
     },
     {
+        id: 3,
         name: "Last Word",
         ingredients: [
             "0.75oz Gin",
@@ -53,6 +57,7 @@ export const data = [
         History: "Lorem ipsum"
     },
     {
+        id: 4,
         name: "Last Word",
         ingredients: [
             "0.75oz Gin",
@@ -66,6 +71,7 @@ export const data = [
         History: "Lorem ipsum"
     },
     {
+        id: 5,
         name: "Margarita",
         ingredients: [
             "1.5oz Tequila",
@@ -79,6 +85,7 @@ export const data = [
         History: "Lorem ipsum"
     },
     {
+        id: 6,
         name: "Margarita",
         ingredients: [
             "1.5oz Tequila",
@@ -92,6 +99,7 @@ export const data = [
         History: "Lorem ipsum"
     },
     {
+        id: 7,
         name: "Margarita",
         ingredients: [
             "1.5oz Tequila",
@@ -105,6 +113,7 @@ export const data = [
         History: "Lorem ipsum"
     },
     {
+        id: 8,
         name: "Margarita",
         ingredients: [
             "1.5oz Tequila",

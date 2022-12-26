@@ -3,14 +3,7 @@
     export let data;
 </script>
 
-<header>
-    <img src="./header/arrow-back.svg" alt="Back arrow">
-    <img src="./header/skull.svg" alt="Skull icon">
-    <img src="./header/settings.svg" alt="Settings icon">
-</header>
-
 <body>
-    <!-- TODO: Switch this, iterate over drinks and asign letter, alphabetize data IMPORTANT!!! -->
     {#each alphabet as letter}
         {#if data.data.find(drink => {
             return drink.name[0] === letter
@@ -19,7 +12,7 @@
         {/if}
         {#each data.data as drink}
             {#if drink.name[0] === letter}
-                <div class="drink">
+                <a class="drink" href="/drink/{drink.id}">
                     <img src="./drink-placeholder.svg" alt="drink icon" >
                     <div class="drink-info">
                         <p class="drink-name">
@@ -29,27 +22,18 @@
                             {drink.ingredients[0].split(" ")[1]}
                         </p>
                     </div>
-                </div>
+                </a>
             {/if}
         {/each}
     {/each}
 
     <div class="add-drink-btn">
-        <p>+</p>
+        +
     </div>
 </body>
 
 <style>
-    header {
-        position: sticky;
-        top: 0;
-        z-index: 1;
-        background-color: #303134;
-        display: flex;
-        justify-content: space-between;
-        padding: 0.7rem;
-    }
-    header img, .drink img {
+    .drink img {
         width: 2.2rem;
         filter: invert(97%) saturate(7487%) hue-rotate(77deg) brightness(85%) contrast(100%);
     }
@@ -65,6 +49,7 @@
         border-radius: 8px;
         display: flex;
         background-color: #3c3d40;
+        text-decoration: none;
     }
     .drink img {
         width: 2.5rem;
