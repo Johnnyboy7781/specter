@@ -12,6 +12,11 @@
 <body>
     <!-- TODO: Switch this, iterate over drinks and asign letter, alphabetize data IMPORTANT!!! -->
     {#each alphabet as letter}
+        {#if data.data.find(drink => {
+            return drink.name[0] === letter
+        })}
+            <h2>{letter}</h2>
+        {/if}
         {#each data.data as drink}
             {#if drink.name[0] === letter}
                 <div>{drink.name}</div>
