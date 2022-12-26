@@ -41,6 +41,9 @@
 
 <style>
     header {
+        position: sticky;
+        top: 0;
+        z-index: 1;
         background-color: #303134;
         display: flex;
         justify-content: space-between;
@@ -53,7 +56,8 @@
     .section-letter {
         margin: 0.5rem;
         padding-bottom: 0.2rem;
-        border-bottom: 2px solid black;
+        padding-left: 0.5rem;
+        border-bottom: 2px solid rgba(0, 0, 0, 0.5);
     }
     .drink {
         margin: 0.5rem;
@@ -77,9 +81,9 @@
     }
     .add-drink-btn {
         background-color: #586b8e;
-        position: absolute;
-        bottom: 2rem;
-        right: 2rem;
+        position: sticky;
+        bottom: 1rem;
+        left: calc(100% - 5rem);
         width: 4rem;
         padding: 0.25rem;
         border-radius: 25%;

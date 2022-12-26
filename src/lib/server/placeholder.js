@@ -77,5 +77,44 @@ export const data = [
         ice: "Rocks",
         garnish: "Lime wheel",
         History: "Lorem ipsum"
-    }
+    },
+    {
+        name: "Margarita",
+        ingredients: [
+            "1.5oz Tequila",
+            "0.75oz Lime",
+            "0.5oz Agave",
+            "0.5oz Triple Sec"
+        ],
+        glassware: "Rocks",
+        ice: "Rocks",
+        garnish: "Lime wheel",
+        History: "Lorem ipsum"
+    },
+    {
+        name: "Margarita",
+        ingredients: [
+            "1.5oz Tequila",
+            "0.75oz Lime",
+            "0.5oz Agave",
+            "0.5oz Triple Sec"
+        ],
+        glassware: "Rocks",
+        ice: "Rocks",
+        garnish: "Lime wheel",
+        History: "Lorem ipsum"
+    },
+    {
+        name: "Margarita",
+        ingredients: [
+            "1.5oz Tequila",
+            "0.75oz Lime",
+            "0.5oz Agave",
+            "0.5oz Triple Sec"
+        ],
+        glassware: "Rocks",
+        ice: "Rocks",
+        garnish: "Lime wheel",
+        History: "Lorem ipsum"
+    },
 ]
