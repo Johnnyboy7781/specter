@@ -33,6 +33,10 @@
             {/if}
         {/each}
     {/each}
+
+    <div class="add-drink-btn">
+        <p>+</p>
+    </div>
 </body>
 
 <style>
@@ -44,7 +48,7 @@
     }
     header img, .drink img {
         width: 2.2rem;
-        filter: invert(97%) sepia(0%) saturate(7487%) hue-rotate(77deg) brightness(85%) contrast(100%);
+        filter: invert(97%) saturate(7487%) hue-rotate(77deg) brightness(85%) contrast(100%);
     }
     .section-letter {
         margin: 0.5rem;
@@ -65,9 +69,25 @@
         margin-left: 1rem;
     }
     .drink-name {
+        color: white;
         font-size: 1.2em;
     }
     .drink-spirit {
         color: rgb(170, 170, 170);
+    }
+    .add-drink-btn {
+        background-color: #586b8e;
+        position: absolute;
+        bottom: 2rem;
+        right: 2rem;
+        width: 4rem;
+        padding: 0.25rem;
+        border-radius: 25%;
+        aspect-ratio: 1;
+        font-size: 3em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.5);
     }
 </style>

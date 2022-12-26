@@ -73,7 +73,7 @@ export const data = [
             "0.5oz Agave",
             "0.5oz Triple Sec"
         ],
-        glassware: "Rocks glass",
+        glassware: "Rocks",
         ice: "Rocks",
         garnish: "Lime wheel",
         History: "Lorem ipsum"
