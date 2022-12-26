@@ -1,9 +1,13 @@
 <script>
+    import { fly } from "svelte/transition";
     const alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
     export let data;
 </script>
 
-<body>
+<body
+    in:fly="{{ x: -50, duration: 250, delay: 300 }}"
+    out:fly="{{ x: -50, duration: 250}}"
+>
     {#each alphabet as letter}
         {#if data.data.find(drink => {
             return drink.name[0] === letter
@@ -41,7 +45,7 @@
         margin: 0.5rem;
         padding-bottom: 0.2rem;
         padding-left: 0.5rem;
-        border-bottom: 2px solid rgba(0, 0, 0, 0.5);
+        border-bottom: 2px solid #686868;
     }
     .drink {
         margin: 0.5rem;

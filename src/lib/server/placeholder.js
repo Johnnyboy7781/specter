@@ -11,7 +11,8 @@ export const data = [
         glassware: "Coupe",
         ice: "None",
         garnish: "None",
-        History: "Lorem ipsum"
+        history: "Lorem ipsum",
+        dateCreated: new Date()
     },
     {
         id: 1,
@@ -26,7 +27,8 @@ export const data = [
         glassware: "Coupe",
         ice: "None",
         garnish: "Lime wheel",
-        History: "Lorem ipsum"
+        history: "Lorem ipsum",
+        dateCreated: new Date()
     },
     {
         id: 2,
@@ -40,7 +42,8 @@ export const data = [
         glassware: "Coupe",
         ice: "None",
         garnish: "None",
-        History: "Lorem ipsum"
+        history: "Lorem ipsum",
+        dateCreated: new Date()
     },
     {
         id: 3,
@@ -54,7 +57,8 @@ export const data = [
         glassware: "Coupe",
         ice: "None",
         garnish: "None",
-        History: "Lorem ipsum"
+        history: "Lorem ipsum",
+        dateCreated: new Date()
     },
     {
         id: 4,
@@ -68,7 +72,8 @@ export const data = [
         glassware: "Coupe",
         ice: "None",
         garnish: "None",
-        History: "Lorem ipsum"
+        history: "Lorem ipsum",
+        dateCreated: new Date()
     },
     {
         id: 5,
@@ -82,7 +87,8 @@ export const data = [
         glassware: "Rocks",
         ice: "Rocks",
         garnish: "Lime wheel",
-        History: "Lorem ipsum"
+        history: "Lorem ipsum",
+        dateCreated: new Date()
     },
     {
         id: 6,
@@ -96,7 +102,8 @@ export const data = [
         glassware: "Rocks",
         ice: "Rocks",
         garnish: "Lime wheel",
-        History: "Lorem ipsum"
+        history: "Lorem ipsum",
+        dateCreated: new Date()
     },
     {
         id: 7,
@@ -110,7 +117,8 @@ export const data = [
         glassware: "Rocks",
         ice: "Rocks",
         garnish: "Lime wheel",
-        History: "Lorem ipsum"
+        history: "Lorem ipsum",
+        dateCreated: new Date()
     },
     {
         id: 8,
@@ -124,6 +132,7 @@ export const data = [
         glassware: "Rocks",
         ice: "Rocks",
         garnish: "Lime wheel",
-        History: "Lorem ipsum"
+        history: "Lorem ipsum",
+        dateCreated: new Date()
     },
 ]
